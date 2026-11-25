@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>商品材料审核 · 结果展示</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gate">
+  <form id="login">
+    <h1>商品材料审核</h1>
+    <p class="muted">内容已加密，输入密码查看。</p>
+    <input type="password" id="pw" autocomplete="current-password" placeholder="密码" autofocus>
+    <button type="submit">进入</button>
+    <p id="gateMsg" class="bad"></p>
+  </form>
+</div>
+<div id="app" hidden>
+  <header>
+    <h1>商品材料审核</h1>
+    <nav>
+      <a data-tab="overview" class="on">总览</a>
+      <a data-tab="browse">逐题浏览</a>
+      <a data-tab="rules">规则规格</a>
+      <a data-tab="method">方法</a>
+    </nav>
+    <span id="built" class="muted"></span>
+    <a id="logout" class="muted">退出</a>
+  </header>
+  <main>
+    <section id="tab-overview"></section>
+    <section id="tab-browse" hidden>
+      <div class="bar">
+        <label>题集 <select id="set"></select></label>
+        <label>规则 <select id="rule"><option value="">全部</option></select></label>
+        <label><input type="checkbox" id="onlyWrong"> 只看与答案不同</label>
+        <label><input type="checkbox" id="onlyJudge"> 只看用到视觉裁判的</label>
+        <span id="count" class="muted"></span>
+      </div>
+      <div class="split">
+        <table id="list"><thead><tr><th>规则</th><th>案例</th><th>结论</th><th>答案</th></tr></thead><tbody></tbody></table>
+        <div id="detail"><p class="muted">在左侧选择一题。</p></div>
+      </div>
+    </section>
+    <section id="tab-rules" hidden></section>
+    <section id="tab-method" hidden></section>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
