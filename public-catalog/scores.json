@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-28 18:50",
+  "as_of": "2026-11-28 19:11",
   "records": [
     {
       "name": "官方公开开发集",
@@ -33,20 +33,20 @@
       "groups": 410,
       "group_correct": 410,
       "targets": 398,
-      "target_correct": 389,
-      "status": "历史运行",
+      "target_correct": 392,
+      "status": "交付版实跑",
       "note": "用于开发和回归。"
     },
     {
       "name": "双轮全规则 S51",
       "source": "本项目自建",
       "units": 1364,
-      "correct": 1362,
+      "correct": 1361,
       "groups": 820,
-      "group_correct": 818,
+      "group_correct": 817,
       "targets": 834,
       "target_correct": 830,
-      "status": "历史运行",
+      "status": "交付版实跑",
       "note": "历史留出集，已经过多轮回归。"
     },
     {
@@ -58,7 +58,7 @@
       "group_correct": 410,
       "targets": 405,
       "target_correct": 402,
-      "status": "历史运行",
+      "status": "交付版实跑",
       "note": "历史留出集，已经过多轮回归。"
     },
     {
@@ -70,7 +70,7 @@
       "group_correct": 410,
       "targets": 396,
       "target_correct": 395,
-      "status": "历史运行",
+      "status": "交付版实跑",
       "note": "历史留出集，已经过多轮回归。"
     },
     {
