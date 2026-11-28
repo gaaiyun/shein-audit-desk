@@ -1,0 +1,870 @@
+{
+  "sets": [
+    {
+      "id": "gen-all-s41",
+      "group": "project",
+      "title": "构建练习 S41",
+      "units": 682,
+      "description": "构建与开发回归。可下载全 682 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0237",
+          "title": "包装型号 · 0237",
+          "description": "申报型号为 ZR-888，请核对包装。",
+          "answer": "通过。包装型号与申报一致。",
+          "image": "assets/gen-all-s41-0237-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/gen-all-s41-0237-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0239",
+          "title": "包装型号 · 0239",
+          "description": "申报型号为 ZR-888，请核对包装。",
+          "answer": "退回。包装型号与申报不一致。",
+          "image": "assets/gen-all-s41-0239-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/gen-all-s41-0239-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0245",
+          "title": "包装型号 · 0245",
+          "description": "申报型号为 ZR-888，请核对包装。",
+          "answer": "待核实。型号值被遮挡读不清。",
+          "image": "assets/gen-all-s41-0245-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/gen-all-s41-0245-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/gen-all-s41.json",
+      "download": "downloads/gen-all-s41.zip",
+      "download_units": 682,
+      "full_inputs": true
+    },
+    {
+      "id": "holdout-s51",
+      "group": "project",
+      "title": "早期留出 S51",
+      "units": 1364,
+      "description": "历史留出，已经用于诊断与回归。可下载全 1364 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0473",
+          "title": "包装型号 · 0473",
+          "description": "申报型号为 TL-629，请核对包装。",
+          "answer": "通过。包装型号与申报一致。",
+          "image": "assets/holdout-s51-0473-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s51-0473-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0475",
+          "title": "包装型号 · 0475",
+          "description": "申报型号为 TL-629，请核对包装。",
+          "answer": "退回。包装型号与申报不一致。",
+          "image": "assets/holdout-s51-0475-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s51-0475-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0481",
+          "title": "包装型号 · 0481",
+          "description": "申报型号为 TL-629，请核对包装。",
+          "answer": "待核实。型号值被遮挡读不清。",
+          "image": "assets/holdout-s51-0481-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s51-0481-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/holdout-s51.json",
+      "download": "downloads/holdout-s51.zip",
+      "download_units": 1364,
+      "full_inputs": true
+    },
+    {
+      "id": "holdout-s61",
+      "group": "project",
+      "title": "历史留出 S61",
+      "units": 682,
+      "description": "历史留出，现作回归。可下载全 682 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0237",
+          "title": "包装型号 · 0237",
+          "description": "申报型号为 MX-437，请核对包装。",
+          "answer": "通过。包装型号与申报一致。",
+          "image": "assets/holdout-s61-0237-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s61-0237-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0239",
+          "title": "包装型号 · 0239",
+          "description": "申报型号为 MX-437，请核对包装。",
+          "answer": "退回。包装型号与申报不一致。",
+          "image": "assets/holdout-s61-0239-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s61-0239-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0245",
+          "title": "包装型号 · 0245",
+          "description": "申报型号为 MX-437，请核对包装。",
+          "answer": "待核实。型号值被遮挡读不清。",
+          "image": "assets/holdout-s61-0245-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s61-0245-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/holdout-s61.json",
+      "download": "downloads/holdout-s61.zip",
+      "download_units": 682,
+      "full_inputs": true
+    },
+    {
+      "id": "holdout-s71",
+      "group": "project",
+      "title": "版式留出 S71",
+      "units": 682,
+      "description": "版式变化留出，现作回归。可下载全 682 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0237",
+          "title": "包装型号 · 0237",
+          "description": "申报型号为 LMP-658，请核对包装。",
+          "answer": "通过。包装型号与申报一致。",
+          "image": "assets/holdout-s71-0237-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s71-0237-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0239",
+          "title": "包装型号 · 0239",
+          "description": "申报型号为 LMP-658，请核对包装。",
+          "answer": "退回。包装型号与申报不一致。",
+          "image": "assets/holdout-s71-0239-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s71-0239-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0245",
+          "title": "包装型号 · 0245",
+          "description": "申报型号为 LMP-658，请核对包装。",
+          "answer": "待核实。型号值被遮挡读不清。",
+          "image": "assets/holdout-s71-0245-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/holdout-s71-0245-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/holdout-s71.json",
+      "download": "downloads/holdout-s71.zip",
+      "download_units": 682,
+      "full_inputs": true
+    },
+    {
+      "id": "stress-visual",
+      "group": "project",
+      "title": "图像退化对照",
+      "units": 108,
+      "description": "沿用 s61 单元 ID 和答案的图像退化对照，包含在 3,546 条历史记录内。可下载全 108 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0001",
+          "title": "包装取景 · 0001",
+          "description": "观察图片中包装主面的边界是否完整。",
+          "answer": "通过。主视图可见包装主面四个边界。",
+          "image": "assets/stress-visual-0001-1.webp",
+          "alt": "包装图 · 包装取景",
+          "images": [
+            {
+              "path": "assets/stress-visual-0001-1.webp",
+              "alt": "包装图 · 包装取景",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0003",
+          "title": "包装取景 · 0003",
+          "description": "观察图片中包装主面的边界是否完整。",
+          "answer": "退回。主视图明确裁去了右边界。",
+          "image": "assets/stress-visual-0003-1.webp",
+          "alt": "包装图 · 包装取景",
+          "images": [
+            {
+              "path": "assets/stress-visual-0003-1.webp",
+              "alt": "包装图 · 包装取景",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0005",
+          "title": "包装取景 · 0005",
+          "description": "观察图片中包装主面的边界是否完整。",
+          "answer": "待核实。遮挡导致不能确认边界。",
+          "image": "assets/stress-visual-0005-1.webp",
+          "alt": "包装图 · 包装取景",
+          "images": [
+            {
+              "path": "assets/stress-visual-0005-1.webp",
+              "alt": "包装图 · 包装取景",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/stress-visual.json",
+      "download": "downloads/stress-visual.zip",
+      "download_units": 108,
+      "full_inputs": true
+    },
+    {
+      "id": "matrix-1128-seed1128",
+      "group": "project",
+      "title": "矩阵定向回归",
+      "units": 28,
+      "description": "矩阵与 OCR 定向回归。可下载全 28 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0009",
+          "title": "部件型号配对 · 0009",
+          "description": "请核对申报部件与图上型号的对应关系。",
+          "answer": "退回。矩阵记录与申报错配。",
+          "image": "assets/matrix-1128-seed1128-0009-1.webp",
+          "alt": "证明页 · 部件型号配对",
+          "images": [
+            {
+              "path": "assets/matrix-1128-seed1128-0009-1.webp",
+              "alt": "证明页 · 部件型号配对",
+              "label": "证明页"
+            }
+          ]
+        },
+        {
+          "number": "0021",
+          "title": "部件型号配对 · 0021",
+          "description": "请核对申报部件与图上型号的对应关系。",
+          "answer": "通过。矩阵记录与申报一致。",
+          "image": "assets/matrix-1128-seed1128-0021-1.webp",
+          "alt": "证明页 · 部件型号配对",
+          "images": [
+            {
+              "path": "assets/matrix-1128-seed1128-0021-1.webp",
+              "alt": "证明页 · 部件型号配对",
+              "label": "证明页"
+            }
+          ]
+        },
+        {
+          "number": "0023",
+          "title": "部件型号配对 · 0023",
+          "description": "请核对申报部件与图上型号的对应关系。",
+          "answer": "退回。矩阵记录与申报错配。",
+          "image": "assets/matrix-1128-seed1128-0023-1.webp",
+          "alt": "证明页 · 部件型号配对",
+          "images": [
+            {
+              "path": "assets/matrix-1128-seed1128-0023-1.webp",
+              "alt": "证明页 · 部件型号配对",
+              "label": "证明页"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/matrix-1128-seed1128.json",
+      "download": "downloads/matrix-1128-seed1128.zip",
+      "download_units": 28,
+      "full_inputs": true
+    },
+    {
+      "id": "basic",
+      "group": "independent",
+      "title": "基础规则双版本",
+      "units": 18,
+      "description": "独立模拟 B001 双版本。可下载全 18 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0013",
+          "title": "包装与证明 · 0013",
+          "description": "核对包装标签、证明与申报信息。当前练习版本为 3.0。",
+          "answer": "通过。同一连接附签两字段合规，材料与日期相符，91毫米小于100毫米，允许附签。",
+          "image": "assets/basic-0013-1.webp",
+          "alt": "证明页 · 包装与证明",
+          "images": [
+            {
+              "path": "assets/basic-0013-1.webp",
+              "alt": "证明页 · 包装与证明",
+              "label": "证明页"
+            },
+            {
+              "path": "assets/basic-0013-2.webp",
+              "alt": "包装图 · 包装与证明",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0018",
+          "title": "包装与证明 · 0018",
+          "description": "核对包装标签、证明与申报信息。当前练习版本为 3.1。",
+          "answer": "退回。同一连接附签可见但不在外包装上，91毫米已达到80毫米。",
+          "image": "assets/basic-0018-1.webp",
+          "alt": "证明页 · 包装与证明",
+          "images": [
+            {
+              "path": "assets/basic-0018-1.webp",
+              "alt": "证明页 · 包装与证明",
+              "label": "证明页"
+            },
+            {
+              "path": "assets/basic-0018-2.webp",
+              "alt": "包装图 · 包装与证明",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0016",
+          "title": "包装与证明 · 0016",
+          "description": "核对包装标签、证明与申报信息。当前练习版本为 3.1。",
+          "answer": "待核实。有效截止日字段名可读，值被遮挡；其余必备信息相符，无法确认审核日期是否在有效期内。",
+          "image": "assets/basic-0016-1.webp",
+          "alt": "证明页 · 包装与证明",
+          "images": [
+            {
+              "path": "assets/basic-0016-1.webp",
+              "alt": "证明页 · 包装与证明",
+              "label": "证明页"
+            },
+            {
+              "path": "assets/basic-0016-2.webp",
+              "alt": "包装图 · 包装与证明",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/basic.json",
+      "download": "downloads/basic.zip",
+      "download_units": 18,
+      "full_inputs": true
+    },
+    {
+      "id": "advanced-a",
+      "group": "independent",
+      "title": "进阶模拟 A 卷",
+      "units": 71,
+      "description": "独立模拟进阶 A。可下载全 71 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0008",
+          "title": "包装型号 · 0008",
+          "description": "申报型号为 ZS-764，请核对包装。",
+          "answer": "通过。zs 764 按型号专门规则等同于 ZS-764。",
+          "image": "assets/advanced-a-0008-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/advanced-a-0008-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0025",
+          "title": "包装型号 · 0025",
+          "description": "申报型号为 ZS-764，请核对包装。",
+          "answer": "退回。包装 ZS-746 与申报 ZS-764 数字次序不同。",
+          "image": "assets/advanced-a-0025-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/advanced-a-0025-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0050",
+          "title": "包装型号 · 0050",
+          "description": "申报型号为 ZS-764，请核对包装。",
+          "answer": "待核实。完整字段名可见，型号值全部由纸贴遮挡。",
+          "image": "assets/advanced-a-0050-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/advanced-a-0050-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/advanced-a.json",
+      "download": "downloads/advanced-a.zip",
+      "download_units": 71,
+      "full_inputs": true
+    },
+    {
+      "id": "advanced-b",
+      "group": "independent",
+      "title": "进阶模拟 B 卷",
+      "units": 68,
+      "description": "独立模拟进阶 B。可下载全 68 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0055",
+          "title": "净重与总重 · 0055",
+          "description": "检查净重与总重是否自洽。",
+          "answer": "通过。净重：845 g；总重为 0.845 kg，即 845 g。",
+          "image": "assets/advanced-b-0055-1.webp",
+          "alt": "包装图 · 净重与总重",
+          "images": [
+            {
+              "path": "assets/advanced-b-0055-1.webp",
+              "alt": "包装图 · 净重与总重",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0066",
+          "title": "净重与总重 · 0066",
+          "description": "检查净重与总重是否自洽。",
+          "answer": "退回。净重：846 g；总重为 0.845 kg，即 845 g。",
+          "image": "assets/advanced-b-0066-1.webp",
+          "alt": "包装图 · 净重与总重",
+          "images": [
+            {
+              "path": "assets/advanced-b-0066-1.webp",
+              "alt": "包装图 · 净重与总重",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/advanced-b.json",
+      "download": "downloads/advanced-b.zip",
+      "download_units": 68,
+      "full_inputs": true
+    },
+    {
+      "id": "canvas-probe",
+      "group": "independent",
+      "title": "画幅对照附录",
+      "units": 16,
+      "description": "配对画幅附录，源于 157 个独立单元。可下载全 16 条原输入、全部自绘材料及逐题结论和适用性。",
+      "cases": [
+        {
+          "number": "0002",
+          "title": "包装型号 · 0002",
+          "description": "申报型号为 ZS-764，请核对包装。",
+          "answer": "通过。zs 764 按型号专门规则等同于 ZS-764。",
+          "image": "assets/canvas-probe-0002-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/canvas-probe-0002-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        },
+        {
+          "number": "0001",
+          "title": "包装型号 · 0001",
+          "description": "申报型号为 ZS-764，请核对包装。",
+          "answer": "待核实。完整字段名可见，型号值全部由纸贴遮挡。",
+          "image": "assets/canvas-probe-0001-1.webp",
+          "alt": "包装图 · 包装型号",
+          "images": [
+            {
+              "path": "assets/canvas-probe-0001-1.webp",
+              "alt": "包装图 · 包装型号",
+              "label": "包装图"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/canvas-probe.json",
+      "download": "downloads/canvas-probe.zip",
+      "download_units": 16,
+      "full_inputs": true
+    },
+    {
+      "id": "simulation",
+      "group": "peer",
+      "title": "同学 · 仿真规则",
+      "units": 52,
+      "description": "程序绘图的规则仿真。全 52 条题号可查，下载含 2 道原题的事实重绘、申报与参考结论；图片按源题事实重新绘制。",
+      "cases": [
+        {
+          "number": "0022",
+          "title": "净重与总重 · 0022",
+          "description": "核对两个重量字段。",
+          "answer": "通过。换算后都是 480 g。",
+          "image": "assets/simulation-0022-1.webp",
+          "alt": "原题事实重绘 · 净重与总重",
+          "images": [
+            {
+              "path": "assets/simulation-0022-1.webp",
+              "alt": "原题事实重绘 · 净重与总重",
+              "label": "原题事实重绘"
+            }
+          ]
+        },
+        {
+          "number": "0008",
+          "title": "一克之差 · 0008",
+          "description": "核对两个重量字段。",
+          "answer": "退回。净重比总重多 1 g。",
+          "image": "assets/simulation-0008-1.webp",
+          "alt": "原题事实重绘 · 一克之差",
+          "images": [
+            {
+              "path": "assets/simulation-0008-1.webp",
+              "alt": "原题事实重绘 · 一克之差",
+              "label": "原题事实重绘"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/simulation.json",
+      "download": "downloads/simulation.zip",
+      "download_units": 2,
+      "full_inputs": false
+    },
+    {
+      "id": "complex-vision",
+      "group": "peer",
+      "title": "同学 · 复杂视觉",
+      "units": 20,
+      "description": "受控视觉关系。全 20 条题号可查，下载含 2 道原题的事实重绘、申报与参考结论；图片按源题事实重新绘制。",
+      "cases": [
+        {
+          "number": "0009",
+          "title": "型号中的分隔符 · 0009",
+          "description": "申报型号为 KD 802，核对包装。",
+          "answer": "通过。差异只在分隔符。",
+          "image": "assets/complex-vision-0009-1.webp",
+          "alt": "原题事实重绘 · 型号中的分隔符",
+          "images": [
+            {
+              "path": "assets/complex-vision-0009-1.webp",
+              "alt": "原题事实重绘 · 型号中的分隔符",
+              "label": "原题事实重绘"
+            }
+          ]
+        },
+        {
+          "number": "0018",
+          "title": "型号尾数 · 0018",
+          "description": "申报型号为 KD-803，核对包装。",
+          "answer": "退回。包装尾数为 2，申报尾数为 3。",
+          "image": "assets/complex-vision-0018-1.webp",
+          "alt": "原题事实重绘 · 型号尾数",
+          "images": [
+            {
+              "path": "assets/complex-vision-0018-1.webp",
+              "alt": "原题事实重绘 · 型号尾数",
+              "label": "原题事实重绘"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/complex-vision.json",
+      "download": "downloads/complex-vision.zip",
+      "download_units": 2,
+      "full_inputs": false
+    },
+    {
+      "id": "official-like",
+      "group": "peer",
+      "title": "同学 · 近似版式",
+      "units": 61,
+      "description": "近似版式的自建练习，共50个场景。全 61 条题号可查，下载含 2 道原题的事实重绘、申报与参考结论；图片按源题事实重新绘制。",
+      "cases": [
+        {
+          "number": "0002",
+          "title": "型号尾数核对 · 0002",
+          "description": "申报型号为 VR-609。",
+          "answer": "退回。包装与申报的最后一位不同。",
+          "image": "assets/official-like-0002-1.webp",
+          "alt": "原题事实重绘 · 型号尾数核对",
+          "images": [
+            {
+              "path": "assets/official-like-0002-1.webp",
+              "alt": "原题事实重绘 · 型号尾数核对",
+              "label": "原题事实重绘"
+            }
+          ]
+        },
+        {
+          "number": "0026",
+          "title": "比较净重与总重 · 0026",
+          "description": "将重量换算成同一单位。",
+          "answer": "退回。净重比总重多 50 g。",
+          "image": "assets/official-like-0026-1.webp",
+          "alt": "原题事实重绘 · 比较净重与总重",
+          "images": [
+            {
+              "path": "assets/official-like-0026-1.webp",
+              "alt": "原题事实重绘 · 比较净重与总重",
+              "label": "原题事实重绘"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/official-like.json",
+      "download": "downloads/official-like.zip",
+      "download_units": 2,
+      "full_inputs": false
+    },
+    {
+      "id": "frozen-test",
+      "group": "peer",
+      "title": "同学 · 封存场景",
+      "units": 61,
+      "description": "封存测试，共50个场景，其中图像曾以官方图作生成参考。全 61 条题号可查，下载含 2 道原题的事实重绘、申报与参考结论；图片按源题事实重新绘制。",
+      "cases": [
+        {
+          "number": "0002",
+          "title": "大小写与空格 · 0002",
+          "description": "申报型号为 nx 472。",
+          "answer": "通过。数字相同，字母大小写和分隔方式不同。",
+          "image": "assets/frozen-test-0002-1.webp",
+          "alt": "原题事实重绘 · 大小写与空格",
+          "images": [
+            {
+              "path": "assets/frozen-test-0002-1.webp",
+              "alt": "原题事实重绘 · 大小写与空格",
+              "label": "原题事实重绘"
+            }
+          ]
+        },
+        {
+          "number": "0026",
+          "title": "两个重量单位 · 0026",
+          "description": "核对商品的净重和总重。",
+          "answer": "通过。净重 900 g，低于 950 g。",
+          "image": "assets/frozen-test-0026-1.webp",
+          "alt": "原题事实重绘 · 两个重量单位",
+          "images": [
+            {
+              "path": "assets/frozen-test-0026-1.webp",
+              "alt": "原题事实重绘 · 两个重量单位",
+              "label": "原题事实重绘"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/frozen-test.json",
+      "download": "downloads/frozen-test.zip",
+      "download_units": 2,
+      "full_inputs": false
+    },
+    {
+      "id": "ocr-generalization",
+      "group": "peer",
+      "title": "同学 · OCR 压力",
+      "units": 50,
+      "description": "OCR 新版式与实拍退化压力。全 50 条题号可查，下载含 2 道原题的事实重绘、申报与参考结论；图片按源题事实重新绘制。",
+      "cases": [
+        {
+          "number": "0041",
+          "title": "型号印刷 · 0041",
+          "description": "申报型号为 KD-802。",
+          "answer": "通过。标签与申报相同。",
+          "image": "assets/ocr-generalization-0041-1.webp",
+          "alt": "原题事实重绘 · 型号印刷",
+          "images": [
+            {
+              "path": "assets/ocr-generalization-0041-1.webp",
+              "alt": "原题事实重绘 · 型号印刷",
+              "label": "原题事实重绘"
+            }
+          ]
+        },
+        {
+          "number": "0049",
+          "title": "全角字符 · 0049",
+          "description": "申报型号为 KD-802。",
+          "answer": "通过。转成半角后字符一致。",
+          "image": "assets/ocr-generalization-0049-1.webp",
+          "alt": "原题事实重绘 · 全角字符",
+          "images": [
+            {
+              "path": "assets/ocr-generalization-0049-1.webp",
+              "alt": "原题事实重绘 · 全角字符",
+              "label": "原题事实重绘"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/ocr-generalization.json",
+      "download": "downloads/ocr-generalization.zip",
+      "download_units": 2,
+      "full_inputs": false
+    },
+    {
+      "id": "real-world",
+      "group": "peer",
+      "title": "同学 · 写实场景",
+      "units": 25,
+      "description": "写实场景回归。全 25 条题号可查，下载含 2 道原题的事实重绘、申报与参考结论；图片按源题事实重新绘制。",
+      "cases": [
+        {
+          "number": "0006",
+          "title": "包装右边界 · 0006",
+          "description": "观察包装右边界是否落在照片内。",
+          "answer": "退回。包装右端伸出画面，边界已被裁掉。",
+          "image": "assets/real-world-0006-1.webp",
+          "alt": "原题事实重绘 · 包装右边界",
+          "images": [
+            {
+              "path": "assets/real-world-0006-1.webp",
+              "alt": "原题事实重绘 · 包装右边界",
+              "label": "原题事实重绘"
+            }
+          ]
+        },
+        {
+          "number": "0007",
+          "title": "包装边缘遮挡 · 0007",
+          "description": "判断包装右边界。",
+          "answer": "待核实。前景盒子遮住包装右边，没法看清边界。",
+          "image": "assets/real-world-0007-1.webp",
+          "alt": "原题事实重绘 · 包装边缘遮挡",
+          "images": [
+            {
+              "path": "assets/real-world-0007-1.webp",
+              "alt": "原题事实重绘 · 包装边缘遮挡",
+              "label": "原题事实重绘"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/real-world.json",
+      "download": "downloads/real-world.zip",
+      "download_units": 2,
+      "full_inputs": false
+    },
+    {
+      "id": "premium",
+      "group": "peer",
+      "title": "同学 · 写实精选",
+      "units": 15,
+      "description": "从写实25题映射选取；13题计主分，Q13、Q20待复核。全 15 条题号可查，下载含 2 道原题的事实重绘、申报与参考结论；图片按源题事实重新绘制。",
+      "cases": [
+        {
+          "number": "0003",
+          "title": "写实精选 · 裁切 · 0003",
+          "description": "观察包装右端是否在照片内。",
+          "answer": "退回。右边界超出画面。",
+          "image": "assets/premium-0003-1.webp",
+          "alt": "原题事实重绘 · 写实精选 · 裁切",
+          "images": [
+            {
+              "path": "assets/premium-0003-1.webp",
+              "alt": "原题事实重绘 · 写实精选 · 裁切",
+              "label": "原题事实重绘"
+            }
+          ]
+        },
+        {
+          "number": "0004",
+          "title": "写实精选 · 遮挡 · 0004",
+          "description": "观察前景盒子后面的包装边缘。",
+          "answer": "待核实。包装右边界被前景盒子遮住。",
+          "image": "assets/premium-0004-1.webp",
+          "alt": "原题事实重绘 · 写实精选 · 遮挡",
+          "images": [
+            {
+              "path": "assets/premium-0004-1.webp",
+              "alt": "原题事实重绘 · 写实精选 · 遮挡",
+              "label": "原题事实重绘"
+            }
+          ]
+        }
+      ],
+      "index": "indexes/premium.json",
+      "download": "downloads/premium.zip",
+      "download_units": 2,
+      "full_inputs": false
+    }
+  ]
+}

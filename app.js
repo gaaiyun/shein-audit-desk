@@ -30,7 +30,8 @@ function drawMaterial(){
  $("box-toggle").setAttribute("aria-pressed",String(boxes));$("evidence-title").textContent="图中证据";$("evidence-text").textContent=detail;
 }
 function showPage(){
- const page=["cases","results","local"].includes(location.hash.slice(1))?location.hash.slice(1):"cases";
+ const section=location.hash.slice(1).split("/")[0];
+ const page=["cases","sets","results","local"].includes(section)?section:"cases";
  document.querySelectorAll("[data-view]").forEach(e=>e.hidden=e.dataset.view!==page);
  document.querySelectorAll("[data-page]").forEach(e=>{if(e.dataset.page===page)e.setAttribute("aria-current","page");else e.removeAttribute("aria-current");});
 }

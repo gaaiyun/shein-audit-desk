@@ -1,0 +1,124 @@
+[
+  {
+    "number": "0001",
+    "rule_id": "B001",
+    "material_roles": [
+      "certificate_pages",
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0002",
+    "rule_id": "B001",
+    "material_roles": [
+      "package_photos",
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0003",
+    "rule_id": "R001",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": 0
+  },
+  {
+    "number": "0004",
+    "rule_id": "R001",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": 1
+  },
+  {
+    "number": "0005",
+    "rule_id": "R004",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0006",
+    "rule_id": "R005",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0007",
+    "rule_id": "R005",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0008",
+    "rule_id": "R012",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0009",
+    "rule_id": "R013",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0010",
+    "rule_id": "R021",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0011",
+    "rule_id": "R023",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0012",
+    "rule_id": "R028",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0013",
+    "rule_id": "R029",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0014",
+    "rule_id": "R031",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0015",
+    "rule_id": "R035",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  }
+]

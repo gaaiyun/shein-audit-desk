@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="查看商品材料的原创审核案例、证据区域和本地模拟评测记录。"><title>商品材料审核台</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="浏览商品材料审核测试集、原创案例及本地模拟评测记录。"><title>商品材料审核台</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=sets1"><script src="app.js?v=sets1" defer></script><script src="catalog.js?v=sets1" defer></script></head>
 <body><a href="#main" class="skip">跳至主要内容</a>
-<header><div class="mast wrap"><div class="brand"><span class="mark" aria-hidden="true"></span>材料审核台</div><span class="mast-note">公开演示</span></div><div class="navline"><nav class="wrap" aria-label="主导航"><a href="#cases" data-page="cases">案例复核</a><a href="#results" data-page="results">自测记录</a><a href="#local" data-page="local">本地运行</a></nav></div></header>
+<header><div class="mast wrap"><div class="brand"><span class="mark" aria-hidden="true"></span>材料审核台</div><span class="mast-note">公开演示</span></div><div class="navline"><nav class="wrap" aria-label="主导航"><a href="#cases" data-page="cases">案例复核</a><a href="#sets" data-page="sets">测试集</a><a href="#results" data-page="results">自测记录</a><a href="#local" data-page="local">本地运行</a></nav></div></header>
 <main id="main" class="wrap">
 <section id="cases" data-view="cases"><div class="heading"><h1>案例复核</h1><p>打开样品档案，查看每项判断所依据的材料。</p></div>
 <div class="work"><aside aria-label="案例目录"><div class="queue-title"><h2>样品档案</h2><span id="case-count" aria-live="polite"></span></div>
@@ -11,6 +11,24 @@
 <p id="reason"></p><div class="viewer-head"><div class="tabset" id="materials" aria-label="切换材料"></div><button id="box-toggle" class="toggle" aria-pressed="true">证据框</button></div>
 <figure><div class="image-wrap"><img id="preview" width="1060" height="660" alt=""><div id="roi" aria-hidden="true"></div></div><figcaption><span id="evidence-title"></span><span id="evidence-text"></span></figcaption></figure>
 </article></div></section>
+<section id="sets" data-view="sets" hidden>
+<div class="heading"><h1>测试集</h1><p>按题目来源浏览原题或重绘预览。每套资料分别列出规模和可下载范围。</p></div>
+<div class="origin-nav" aria-label="题集来源和成绩"><a href="#sets/project" data-origin="project">本项目自建</a><a href="#sets/peer" data-origin="peer">同学交接</a><a href="#sets/independent" data-origin="independent">独立模拟题</a><a href="#sets/scores" id="scores-link">各集成绩</a></div>
+<p id="catalog-message" role="status"></p>
+<div id="scores-section" class="scores-section" data-revision="20261128-v1" hidden><div class="scores-head"><div><h2>各集成绩</h2><p>按各套题的原始分母列出正确数。对照组须整组全部正确；横线表示该指标没有可报告的成绩。<span id="scores-time"></span></p></div><div><label for="score-source">筛选来源</label><select id="score-source"></select></div></div>
+<table aria-label="各测试集效果"><thead><tr><th>测试集与运行记录</th><th>审核单元</th><th>对照组</th><th>标注目标</th></tr></thead><tbody id="scores-body"></tbody></table></div>
+<div id="catalog-work" class="work catalog-work" hidden>
+<aside aria-label="题集目录"><div class="queue-title"><h2>题集目录</h2><span id="set-count"></span></div>
+<label class="set-mobile" for="set-picker">选择题集</label><select class="set-mobile" id="set-picker"></select><div id="set-list"></div></aside>
+<article aria-label="题集与公开范围"><div class="collection-head"><div><p id="collection-count"></p><h2 id="collection-title"></h2></div><a id="collection-download" class="download" download hidden>下载公开包</a></div>
+<p id="collection-scope"></p><details id="unit-index" hidden><summary>查看完整题号目录</summary>
+<div class="index-tools"><div><label for="index-filter">检索题号、规则或材料类型</label><input type="search" id="index-filter" placeholder="输入题号或规则编号"></div><a id="index-file" download>下载目录 JSON</a></div>
+<p id="index-status" role="status"></p><table class="index-table"><thead><tr><th>题号</th><th>规则</th><th>材料</th><th>可阅内容</th></tr></thead><tbody id="index-body"></tbody></table><div class="index-pager"><button type="button" id="index-prev">上一页</button><span id="index-page"></span><button type="button" id="index-next">下一页</button></div></details>
+<div id="reader" hidden><div class="reader-controls"><div><label for="example-picker">浏览题目</label><select id="example-picker"></select></div>
+<div class="pager"><button type="button" id="prev-example">上一题</button><button type="button" id="next-example">下一题</button></div></div>
+<h3 id="example-title"></h3><p id="example-text"></p>
+<div id="sample-tabs" class="tabset" aria-label="题目材料"></div><figure class="catalog-sheet" id="catalog-figure"><a id="sample-full" target="_blank" rel="noopener"><img id="sample-image" alt=""></a><figcaption id="sample-caption"></figcaption></figure>
+<details id="answer-view"><summary>查看题目参考</summary><p id="sample-answer"></p></details></div></article></div></section>
 <section id="results" data-view="results" hidden><div class="heading"><h1>自测记录</h1><p>冻结版本首次运行独立编制的模拟题。以下数据仅来自团队本地测试。</p></div>
 <div class="results"><div class="summary"><span class="large">129 <small>/ 157</small></span><div><h2>审核单元判断正确</h2><p>结论与适用性同时正确。其余 28 个单元至少一项未命中。</p></div></div>
 <h2>分组结果</h2><table><thead><tr><th>题目分组</th><th>正确单元</th><th>整组全对的对照组</th></tr></thead><tbody><tr><th>基础规则</th><td>18 / 18</td><td>9</td></tr><tr><th>进阶规则 · 前半组</th><td>58 / 71</td><td>18</td></tr><tr><th>进阶规则 · 后半组</th><td>53 / 68</td><td>23</td></tr></tbody><tfoot><tr><th>合计</th><td>129 / 157</td><td>50 / 73</td></tr></tfoot></table>

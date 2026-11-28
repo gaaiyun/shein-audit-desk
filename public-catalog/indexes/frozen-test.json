@@ -1,0 +1,496 @@
+[
+  {
+    "number": "0001",
+    "rule_id": "R001",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0002",
+    "rule_id": "R007",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": 0
+  },
+  {
+    "number": "0003",
+    "rule_id": "R010",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0004",
+    "rule_id": "R019",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0005",
+    "rule_id": "R003",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0006",
+    "rule_id": "R043",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0007",
+    "rule_id": "R014",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0008",
+    "rule_id": "R017",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0009",
+    "rule_id": "R015",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0010",
+    "rule_id": "R016",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0011",
+    "rule_id": "R018",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0012",
+    "rule_id": "R031",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0013",
+    "rule_id": "R032",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0014",
+    "rule_id": "R035",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0015",
+    "rule_id": "R036",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0016",
+    "rule_id": "R033",
+    "material_roles": [
+      "instruction_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0017",
+    "rule_id": "R034",
+    "material_roles": [
+      "instruction_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0018",
+    "rule_id": "R024",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0019",
+    "rule_id": "R025",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0020",
+    "rule_id": "R026",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0021",
+    "rule_id": "R027",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0022",
+    "rule_id": "R028",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0023",
+    "rule_id": "R029",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0024",
+    "rule_id": "R030",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0025",
+    "rule_id": "R037",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0026",
+    "rule_id": "R038",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": 1
+  },
+  {
+    "number": "0027",
+    "rule_id": "R039",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0028",
+    "rule_id": "R040",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0029",
+    "rule_id": "R041",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0030",
+    "rule_id": "R042",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0031",
+    "rule_id": "R044",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0032",
+    "rule_id": "R045",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0033",
+    "rule_id": "R046",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0034",
+    "rule_id": "R047",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0035",
+    "rule_id": "R048",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0036",
+    "rule_id": "R049",
+    "material_roles": [
+      "package_photos",
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0037",
+    "rule_id": "R050",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0038",
+    "rule_id": "R051",
+    "material_roles": [
+      "package_photos",
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0039",
+    "rule_id": "R052",
+    "material_roles": [
+      "package_photos",
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0040",
+    "rule_id": "R053",
+    "material_roles": [
+      "package_photos",
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0041",
+    "rule_id": "R054",
+    "material_roles": [
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0042",
+    "rule_id": "R055",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0043",
+    "rule_id": "R056",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0044",
+    "rule_id": "R057",
+    "material_roles": [
+      "tag_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0045",
+    "rule_id": "R058",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0046",
+    "rule_id": "R059",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0047",
+    "rule_id": "R060",
+    "material_roles": [
+      "tag_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0048",
+    "rule_id": "R002",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0049",
+    "rule_id": "R004",
+    "material_roles": [
+      "tag_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0050",
+    "rule_id": "R005",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0051",
+    "rule_id": "R006",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0052",
+    "rule_id": "R008",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0053",
+    "rule_id": "R009",
+    "material_roles": [
+      "product_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0054",
+    "rule_id": "R011",
+    "material_roles": [
+      "package_photos",
+      "certificate_pages"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0055",
+    "rule_id": "R012",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0056",
+    "rule_id": "R013",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0057",
+    "rule_id": "R020",
+    "material_roles": [
+      "product_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0058",
+    "rule_id": "R021",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0059",
+    "rule_id": "R022",
+    "material_roles": [
+      "tag_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0060",
+    "rule_id": "R023",
+    "material_roles": [
+      "package_photos"
+    ],
+    "case_index": null
+  },
+  {
+    "number": "0061",
+    "rule_id": "B001",
+    "material_roles": [
+      "package_photos",
+      "certificate_pages"
+    ],
+    "case_index": null
+  }
+]
