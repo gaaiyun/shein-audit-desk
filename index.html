@@ -1,53 +1,20 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<title>商品材料审核 · 结果展示</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id="gate">
-  <form id="login">
-    <h1>商品材料审核</h1>
-    <p class="muted">内容已加密，输入密码查看。</p>
-    <input type="password" id="pw" autocomplete="current-password" placeholder="密码" autofocus>
-    <button type="submit">进入</button>
-    <p id="gateMsg" class="bad"></p>
-  </form>
-</div>
-<div id="app" hidden>
-  <header>
-    <h1>商品材料审核</h1>
-    <nav>
-      <a data-tab="overview" class="on">总览</a>
-      <a data-tab="browse">逐题浏览</a>
-      <a data-tab="rules">规则规格</a>
-      <a data-tab="method">方法</a>
-    </nav>
-    <span id="built" class="muted"></span>
-    <a id="logout" class="muted">退出</a>
-  </header>
-  <main>
-    <section id="tab-overview"></section>
-    <section id="tab-browse" hidden>
-      <div class="bar">
-        <label>题集 <select id="set"></select></label>
-        <label>规则 <select id="rule"><option value="">全部</option></select></label>
-        <label><input type="checkbox" id="onlyWrong"> 只看与答案不同</label>
-        <label><input type="checkbox" id="onlyJudge"> 只看用到视觉裁判的</label>
-        <span id="count" class="muted"></span>
-      </div>
-      <div class="split">
-        <table id="list"><thead><tr><th>规则</th><th>案例</th><th>结论</th><th>答案</th></tr></thead><tbody></tbody></table>
-        <div id="detail"><p class="muted">在左侧选择一题。</p></div>
-      </div>
-    </section>
-    <section id="tab-rules" hidden></section>
-    <section id="tab-method" hidden></section>
-  </main>
-</div>
-<script src="app.js"></script>
-</body>
-</html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="查看商品材料的原创审核案例、证据区域和本地模拟评测记录。"><title>商品材料审核台</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body><a href="#main" class="skip">跳至主要内容</a>
+<header><div class="mast wrap"><div class="brand"><span class="mark" aria-hidden="true"></span>材料审核台</div><span class="mast-note">公开演示</span></div><div class="navline"><nav class="wrap" aria-label="主导航"><a href="#cases" data-page="cases">案例复核</a><a href="#results" data-page="results">自测记录</a><a href="#local" data-page="local">本地运行</a></nav></div></header>
+<main id="main" class="wrap">
+<section id="cases" data-view="cases"><div class="heading"><h1>案例复核</h1><p>打开样品档案，查看每项判断所依据的材料。</p></div>
+<div class="work"><aside aria-label="案例目录"><div class="queue-title"><h2>样品档案</h2><span id="case-count" aria-live="polite"></span></div>
+<label for="filter">审核结论</label><select id="filter"><option value="all">全部结论</option><option value="pass">符合</option><option value="reject">不符合</option><option value="ambiguous">待确认</option></select>
+<div id="case-list" class="case-list" aria-label="案例列表"></div>
+</aside><article id="detail" tabindex="-1" aria-live="polite"><div class="detail-head"><div><span class="id" id="case-id"></span><h2 id="case-title"></h2></div><span id="case-status" class="state"></span></div>
+<p id="reason"></p><div class="viewer-head"><div class="tabset" id="materials" aria-label="切换材料"></div><button id="box-toggle" class="toggle" aria-pressed="true">证据框</button></div>
+<figure><div class="image-wrap"><img id="preview" width="1060" height="660" alt=""><div id="roi" aria-hidden="true"></div></div><figcaption><span id="evidence-title"></span><span id="evidence-text"></span></figcaption></figure>
+</article></div></section>
+<section id="results" data-view="results" hidden><div class="heading"><h1>自测记录</h1><p>冻结版本首次运行独立编制的模拟题。以下数据仅来自团队本地测试。</p></div>
+<div class="results"><div class="summary"><span class="large">129 <small>/ 157</small></span><div><h2>审核单元判断正确</h2><p>结论与适用性同时正确。其余 28 个单元至少一项未命中。</p></div></div>
+<h2>分组结果</h2><table><thead><tr><th>题目分组</th><th>正确单元</th><th>整组全对的对照组</th></tr></thead><tbody><tr><th>基础规则</th><td>18 / 18</td><td>9</td></tr><tr><th>进阶规则 · 前半组</th><td>58 / 71</td><td>18</td></tr><tr><th>进阶规则 · 后半组</th><td>53 / 68</td><td>23</td></tr></tbody><tfoot><tr><th>合计</th><td>129 / 157</td><td>50 / 73</td></tr></tfoot></table>
+<h2>尚未解决的问题</h2><table><thead><tr><th>核对项</th><th>首次运行记录</th></tr></thead><tbody><tr><th>视觉版式</th><td>材料换版后，部分判断仍有误。</td></tr><tr><th>标注指令</th><td>另外 22 个标注目标命中 8 个，多种文字表述仍需验证。</td></tr><tr><th>审核输出</th><td>157 个审核单元均有符合接口格式的输出。</td></tr></tbody></table></div></section>
+<section id="local" data-view="local" hidden><div class="heading"><h1>本地运行</h1><p>网页提供原创案例回看。下列命令在本地交付的运行环境中执行。</p></div><div class="results"><h2>五个命令</h2><table><thead><tr><th>命令</th><th>用途</th></tr></thead><tbody><tr><th><code>build</code></th><td>将规则与配置构建为冻结产物。</td></tr><tr><th><code>infer</code></th><td>结合申报和材料输出审核结论、适用性与证据。</td></tr><tr><th><code>annotate</code></th><td>按指定目标提取值、可读状态和位置。</td></tr><tr><th><code>iterate</code></th><td>依据反馈形成迭代记录或候选版本。</td></tr><tr><th><code>evaluate</code></th><td>按评估插件核验输出并生成本地报告。</td></tr></tbody></table><h2>查看命令参数</h2><pre><code>python app.py --help
+python app.py infer --help</code></pre></div></section>
+</main><footer><div class="wrap">案例图与档案均为本演示原创。测试数据来自团队本地模拟。</div></footer></body></html>
